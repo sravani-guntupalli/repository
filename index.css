@@ -1,0 +1,67 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+}
+body{
+	height:100vh;
+	background-image: url(forest3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.logo img{
+	float:left;
+	width:300px;
+	margin-top:20px;
+	margin-left:50px;
+}
+
+ul{
+	float:left;
+	margin-left:100px;
+	margin-top:30px;
+}
+ul li{
+	display:inline-block;
+	margin:0 10px;
+	color:#fff;
+	border:1px solid #fff;
+	padding:10px 20px;
+	transition: 0.9s ease;
+}
+ul li:hover{
+	background-color: red;
+	color:black;
+}
+.sign{
+ float:right;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+.sign a{
+padding: 20px 30px;
+	border:1px solid #fff;
+	color:#fff;
+	text-decoration: none;
+	transition:0.9s ease;
+}
+.sign a:hover{
+	background-color: #fff;
+	color:black;
+}
+.title{
+	position:absolute;
+	top:50%;
+	right:40%;
+}
+.subscription{
+	position: absolute;
+	top:65%;
+	right:50%;
+	font-size: 25px;
+	color:#fff;
+}
+.title h1{
+	font-size: 80px;
+	color:#fff;
+}
